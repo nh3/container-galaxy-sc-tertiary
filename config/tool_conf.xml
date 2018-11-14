@@ -80,6 +80,9 @@
     <tool file="tertiary-analysis/scanpy/scanpy-run-tsne.xml"/>
     <tool file="tertiary-analysis/scanpy/scanpy-find-markers.xml"/>
   </section>
+  <section name="Sccaf" id="sccaf-tools">
+    <tool file="tertiary-analysis/sccaf/run-sccaf.xml"/>
+  </section>
   <section name="UCSC Cell Browser" id="cell-browser">
     <tool file="tertiary-analysis/ucsc-cell-browser/cell-browser.xml"  labels="Viz"/>
   </section>
