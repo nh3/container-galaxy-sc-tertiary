@@ -58,13 +58,13 @@
     <param name="input_format" argument="--input-format" type="select" label="Format of input object">
       <option value="anndata" selected="true">AnnData format hdf5</option>
       <option value="loom">Loom format hdf5, current support is incomplete</option>
-    </param> 
+    </param>
   </xml>
   <xml name="output_object_params">
     <param name="output_format" argument="--output-format" type="select" label="Format of output object">
       <option value="anndata" selected="true">AnnData format hdf5</option>
       <option value="loom">Loom format hdf5, current support is defective</option>
-    </param> 
+    </param>
   </xml>
   <xml name="output_plot_params">
     <param name="color_by" argument="--color-by" type="text" value="n_genes" label="Color by attributes, comma separated strings"/>
